@@ -1,0 +1,37 @@
+footer {
+	*, p {
+		margin: 0;
+	}
+
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+	min-height: 25vh;
+	font-size: smaller;
+
+	hr {
+		border-radius: 100vw;
+		aspect-ratio: 1 / 1;
+		background-color: var(--bg-color-2);
+		border: 0;
+		width: 1em;
+	}
+
+	section {
+		min-width: 200px;
+		padding-inline: 2em;
+
+		&.footer-text {
+			font-size: 2em;
+		}
+	}
+
+	ul {
+		padding: 0;
+	}
+
+	p {
+		font-size: 50%;
+	}
+}

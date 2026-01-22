@@ -1,0 +1,70 @@
+body > nav {
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	padding-block: .5em;
+	padding-inline: 15vw;
+
+	background-color: var(--bg-color-1);
+
+
+	.nav-logo {
+		font-weight: 900;
+		letter-spacing: .01em;
+		font-size: min(10vw, 2em);
+	}
+
+	ul {
+		list-style-type: none;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		gap: 1em;
+
+		a {
+			transition: text-underline-offset 150ms ease-out;
+			text-decoration: none;
+			text-underline-offset: 0;
+
+			&:hover,
+			&.current-route {
+				text-decoration: underline;
+				text-underline-offset: .35em;
+			}
+		}
+	}
+}
+
+body.theme-light nav {
+	background-color: var(--bg-color-1-light);
+	color: var(--fg-color-1-light);
+}
+
+nav.scroll-hidden {
+	animation: nav-scroll-hidden 250ms ease-in forwards;
+}
+
+nav.scroll-shown {
+	animation: nav-scroll-shown 150ms ease-out forwards;
+}
+
+@keyframes nav-scroll-hidden {
+	from {
+		transform: translateY(0%);
+	}
+
+	to {
+		transform: translateY(-100%);
+	}
+}
+
+@keyframes nav-scroll-shown {
+	from {
+		transform: translateY(-100%);
+	}
+
+	to {
+		transform: translateY(0%);
+	}
+}

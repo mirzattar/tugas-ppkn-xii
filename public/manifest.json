@@ -1,0 +1,19 @@
+{
+	"$schema": "https://www.schemastore.org/web-manifest-combined.json",
+	"short_name": "Tugas PPKn",
+	"name": "Tugas PPKn Nouval & Attar XII-5",
+	"background_color": "rgb(13, 24, 13)",
+	"theme_color": "rgb(48, 194, 138)",
+	"lang": "id",
+	"display": "standalone",
+	"icons": [
+		{
+			"src": "/public/favicon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml"
+		}
+	],
+	"start_url": ".",
+	"orientation": "portrait",
+	"description": "Ini adalah tugas PPKN untuk bu Indah."
+}

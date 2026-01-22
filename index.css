@@ -1,0 +1,63 @@
+@import 'variables.css';
+
+html,
+body {
+	padding: 0;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	box-sizing: border-box
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	html {
+		interpolate-size: allow-keywords;
+	}
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+body {
+	font-family: var(--base-font-family);
+	font-size: var(--base-font-size);
+	background-color: var(--bg-color-1);
+	color: var(--fg-color-1);
+
+	&.theme-light {
+		background-color: var(--bg-color-1-light);
+		color: var(--fg-color-1-light);
+	}
+}
+
+::selection {
+	background-color: var(--selection-color);
+}
+
+a {
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-thickness: .1em;
+	color: var(--a-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-block-end: .5em;
+}
+
+p {
+	text-wrap: pretty;
+	margin-block-end: 1em;
+}

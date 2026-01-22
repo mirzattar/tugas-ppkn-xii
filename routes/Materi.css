@@ -1,0 +1,26 @@
+ol {
+	margin-block: 1em;
+}
+
+dl {
+	counter-reset: dt-counter;
+
+	dt {
+		counter-increment: dt-counter;
+		list-style-type: decimal;
+
+		&::before {
+			content: counter(dt-counter) ". ";
+			/* margin-inline-end: .25em; */
+		}
+	}
+
+	dd {
+		margin-inline-start: 1em;
+	}
+}
+
+img.float-right {
+	float: right;
+	margin-inline-start: 1em;
+}

@@ -1,0 +1,43 @@
+#toc {
+	display: flex;
+	font-size: 1.25rem;
+	margin-block-end: 1em;
+	width: fit-content;
+
+	&.toc-aside {
+		margin: 0;
+		padding: 1.5rem;
+		position: fixed;
+		top: 10em;
+		left: 0;
+	}
+
+	button {
+		cursor: pointer;
+		appearance: none;
+		background-color: transparent;
+		border: 0;
+		color: var(--fg-color-2);
+		font-weight: 900;
+		transition:
+			backdrop-filter 100ms,
+			width 100ms;
+
+		&:hover {
+			backdrop-filter: invert(0.1);
+		}
+	}
+
+	li[class$="3"] {
+		margin-inline-start: 1em;
+		list-style-type: circle;
+	}
+}
+
+body.theme-light #toc {
+	background-color: var(--bg-color-2-light);
+
+	button {
+		color: var(--fg-color-2-light);
+	}
+}

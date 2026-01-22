@@ -1,0 +1,69 @@
+{
+	"sections": {
+		"intro": {
+			"heading": null,
+			"content": [
+				"Gotong royong adalah kegiatan bekerja sama untuk mencapai hasil yang diinginkan demi kepentingan bersama. Istilah Gotong royong berasal dari bahasa Jawa yang dimana gotong yang berarti \"memikul\" atau \"mengangkat\" dan royong yang berarti \"bersama-sama\". Jika digabungkan, maknanya adalah memikul beban atau mengerjakan sesuatu secara bersama-sama."
+			]
+		},
+		"jenis_gotong_royong": {
+			"heading": "Jenis Gotong Royong",
+			"content": [
+				"Menurut Koentjaraningrat, terdapat 2 jenis gotong royong, yaitu:",
+				"Gotong Royong Kerja Bakti",
+				"Jenis ini dilakukan untuk mencapai tujuan yang menyangkut kepentingan umum atau fasilitas publik. Sifatnya adalah pengabdian kepada masyarakat luas.",
+				"Gotong Royong Tolong-Menolong",
+				"Jenis ini dilakukan untuk membantu individu atau keluarga tertentu yang sedang membutuhkan bantuan. Sifatnya lebih personal dan didasari oleh rasa kekeluargaan yang erat."
+			]
+		},
+		"contoh_gotong_royong": {
+			"heading": "Contoh Gotong Royong",
+			"content": [
+				"Gotong royong bisa di lakukan dimana saja tempatnya. Berikut adalah beberapa contoh gotong royong:",
+				"Dalam Lingkungan Sekolah",
+				"Gotong royong dalam lingkungan sekolah, seperti:",
+				"Membersihkan kelas secara bersama-sama.",
+				"Mengerjakan kegiatan kerja bakti, misalnya membersihkan halaman sekolah secara bersama-sama.",
+				"Mengerjakan tugas kelompok secara bersama-sama dan adil.",
+				"Dalam Lingkungan Masyarakat",
+				"Gotong royong dalam lingkungan masyarakat, seperti:",
+				"Gotong royong dalam membangun masjid.",
+				"Gotong royong mengerjakan kegiatan pertanian, misalnya bertanam dan memanen hasil pertanian.",
+				"Gotong royong ketika memperbaiki rumah.",
+				"Kerja bakti membersihkan lingkungan desa.",
+				"Gotong royong membangun jembatan penghubung antar desa.",
+				"Dalam Lingkungan Rumah",
+				"Gotong royong dalam lingkungan rumah, seperti:",
+				"Membantu adik dalam mengerjakan pr",
+				"Membantu ibu menyiapkan makanan",
+				"Membantu ayah mencuci kendaraan",
+				"Membantu orangtua untuk membersihkan rumah"
+			]
+		},
+		"manfaat_gotong_royong": {
+			"heading": "Manfaat Gotong Royong",
+			"content": [
+				"Terdapat banyak manfaat dari sikap gotong royong, di antara lain:",
+				"Menumbuhkan rasa dan sikap saling tolong menolong, sukarela, saling membantu, dan mempunyai sifat kekeluargaan.",
+				"Membina hubungan sosial yang baik terhadap masyarakat disekitar.",
+				"Menciptakan rasa kebersamaan dan menumbuhkan rasa kasih sayang.",
+				"Mempererat tali silahturahmi atau persaudaraan.",
+				"Meringankan pekerjaan dan menghemat waktu dalam menuntaskan suatu pekerjaan.",
+				"Meningkatkan produktivitas kerja.",
+				"Terciptanya rasa persatuan dan kesatuan di dalam lingkungan sekitar."
+			]
+		},
+		"nilai_nilai_gotong_royong": {
+			"heading": "Nilai-Nilai Gotong Royong",
+			"content": [
+				"Gotong royong juga memiliki nilai-nilai yang terkandung di dalamnya, di antaranya yaitu:",
+				"Persatuan",
+				"Kesatuan",
+				"Sosialisasi",
+				"Sukarela",
+				"Tolong Menolong",
+				"Kekeluargaan"
+			]
+		}
+	}
+}

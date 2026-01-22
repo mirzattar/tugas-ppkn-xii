@@ -1,0 +1,21 @@
+@import 'font.css';
+
+:root {
+	--base-font-size: 1.3em;
+	--base-font-family: 'Segoe UI', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+
+	--selection-color: rgba(127 127 127 / .5);
+	--a-color: rgb(48, 194, 138);
+
+	--bg-color-1: rgb(13, 24, 13);
+	--bg-color-2: color-mix(in oklch, var(--bg-color-1), white 5%);
+
+	--bg-color-1-light: rgb(242, 231, 242);
+	--bg-color-2-light: color-mix(in oklch, var(--bg-color-1-light), black 5%);
+
+	--fg-color-1: white;
+	--fg-color-2: color-mix(in oklch, var(--fg-color-1), black 10%);
+
+	--fg-color-1-light: black;
+	--fg-color-2-light: color-mix(in oklch, var(--fg-color-1-light), black 10%);
+}

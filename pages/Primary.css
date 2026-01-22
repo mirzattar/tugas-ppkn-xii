@@ -1,0 +1,17 @@
+main {
+	background-color: var(--bg-color-2);
+	padding-inline: clamp(.1rem, 15vw, 15rem);
+	padding-block: 1em;
+	min-height: 90vh;
+	transition: margin-inline-start 250ms ease-out;
+	line-height: 1.6;
+
+	&.toc-compressed {
+		/* width: 80%; */
+		margin-inline-start: 20em;
+	}
+}
+
+body.theme-light main {
+	background-color: var(--bg-color-2-light);
+}
