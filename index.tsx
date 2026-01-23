@@ -1,6 +1,6 @@
 import Tentang from 'routes/Tentang';
 import Primary from 'pages/Primary';
-import NotFound from 'routes/404';
+// import NotFound from 'routes/404';
 import Materi from 'routes/Materi';
 import Home from 'routes/Home';
 
@@ -16,7 +16,6 @@ import {
 	isTOCAside,
 	Routes
 } from 'global';
-import { useEffect } from 'preact/hooks';
 
 console.log("Helo");
 
@@ -42,17 +41,13 @@ function App() {
 		if (currentRoute.value !== Routes.Materi) isTOCAside.value = false
 	});
 
-	useEffect(() => {
-		window.history.replaceState(null, '', '/');
-	}, []);
-
 	return (
 		<Primary>
 			<Switch>
 				<Route path={Routes.Home} component={Home} />
 				<Route path={Routes.Materi} component={Materi} />
 				<Route path={Routes.Tentang} component={Tentang} />
-				<Route><NotFound /></Route>
+				<Route>{Home}</Route>
 			</Switch>
 		</Primary>
 	)
