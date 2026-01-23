@@ -1,18 +1,23 @@
 import 'preact/debug';
+
+import Tentang from 'routes/Tentang';
+import Primary from 'pages/Primary';
+import NotFound from 'routes/404';
+import Materi from 'routes/Materi';
+import Home from 'routes/Home';
+
 import { useSignalEffect } from '@preact/signals';
 import { Route, Switch } from 'wouter-preact';
 import { render } from 'preact';
 
-import Home from 'routes/Home';
-import Materi from 'routes/Materi';
-import Tentang from 'routes/Tentang';
-import NotFound from 'routes/404';
-import Primary from 'pages/Primary';
 import {
 	currentRoute,
 	currentTitle,
-	isDarkMode, isMobile, isTOCAside, Routes } from 'global';
-
+	isDarkMode,
+	isMobile,
+	isTOCAside,
+	Routes
+} from 'global';
 import { useEffect } from 'preact/hooks';
 
 console.log("Helo");
@@ -38,6 +43,10 @@ function App() {
 	useSignalEffect(() => {
 		if (currentRoute.value !== Routes.Materi) isTOCAside.value = false
 	});
+
+	useEffect(() => {
+		window.location.href = "/";
+	}, []);
 
 	return (
 		<Primary>
