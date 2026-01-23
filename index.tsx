@@ -1,5 +1,3 @@
-import 'preact/debug';
-
 import Tentang from 'routes/Tentang';
 import Primary from 'pages/Primary';
 import NotFound from 'routes/404';
@@ -45,7 +43,7 @@ function App() {
 	});
 
 	useEffect(() => {
-		window.location.href = "/";
+		window.history.replaceState(null, '', '/');
 	}, []);
 
 	return (
