@@ -37,9 +37,10 @@ jobs:
         run: bun install
 
       - name: build
-        run: |
-          bun build ./index.html --outdir out
-          cp -r ./public/. ./out
+        run: bun build ./index.html --outdir out
+
+      - name: copy assets
+        run: cp -a ./public/. ./out
 
       - name: upload
         id: deployment
